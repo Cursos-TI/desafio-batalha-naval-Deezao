@@ -15,11 +15,19 @@ int main() {
     for (int j = 2; j < 5 ; j++) {
         tabuleiro[2][j] = 3;
     }
+    for (int j = 7; j < 10; j++){
+        tabuleiro[8][j] = 3;
+    }
 
     // Navio vertical
     for (int i = 5; i < 8; i++) {
         tabuleiro[i][4] = 3;
     }
+    for (int i = 3; i < 6; i++)
+    {
+        tabuleiro[i][7] = 3;
+    }
+    
 
     // Letras das colunas
     printf("   ");
